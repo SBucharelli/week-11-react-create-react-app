@@ -37,8 +37,9 @@ class Clock extends React.Component {
 
   // `render` is the standard for getting html into our web page
   render() {
-    const displayTime = this.state.displayTime
-    const visitorName = this.state.visitorName
+    // const displayTime = this.state.displayTime
+    // const visitorName = this.state.visitorName
+    const { displayTime, visitorName } = this.state
 
     return (
       <div className="clock">
